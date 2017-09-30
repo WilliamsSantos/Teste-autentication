@@ -1,0 +1,58 @@
+/* Place all the styles related to the Curso controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/*/
+
+.Sign-up{
+	width: 180px;
+	border: 1px solid;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 1px 1px 3px; 
+	padding: 30px;
+	margin-top: 50px;
+	background-color: white;
+}
+
+.Messages-alerts{
+	position: absolute;
+	width: 200px;
+	left: 80%; 
+}
+.notice{
+	color: green;
+	position: absolute;
+}
+.alert{
+	color: red;
+}
+/*===========================================================*/
+.ul-vid{
+	margin-left: auto;
+	margin-right: auto;
+	width:800px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+body{
+	font-family: arial;
+}
+.VideoContent{
+
+}
+.header{
+	position: relative;
+	width: 250px;
+	left: 80%;
+}
+.V{
+	display: inline-block;
+	width: 350px;
+}
+footer{
+	clear: both;
+
+}

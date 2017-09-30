@@ -1,0 +1,23 @@
+<h2 class="title">Aulas de Ruby on Rails</h2>
+
+<%= render 'head'%>
+
+
+<div class="ul-Vid">
+	<ul class="VideoContent" type="none">
+		
+		<li class="V"><iframe width="200" height="200" src="https://www.youtube.com/embed/Y8YuI1zDnHg" frameborder="0" allowfullscreen></iframe><br>Aula 1</li>
+
+		<li class="V"><iframe width="200" height="200" src="https://www.youtube.com/embed/zB4m43UPAxk" frameborder="0" allowfullscreen></iframe><br>Aula 2</li>
+
+		<li class="V"><iframe width="200" height="200" src="https://www.youtube.com/embed/eVzx0sjwc1M" frameborder="0" allowfullscreen></iframe><br>Aula de Hash</li>
+	
+	</ul>
+</div>
+
+
+<hr>
+<%= link_to 'Voltar', controller: 'curso', action: 'index' %>
+<hr>
+
+<%= render 'footer'%>

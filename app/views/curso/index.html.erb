@@ -1,0 +1,15 @@
+<h1>Seja bem vindo ao Curso de programador</h1>
+
+<%= render 'head' %>
+
+<h3>Cursos disponiveis:</h3>
+
+<ul type="none">
+	<li class="V"><%= link_to (image_tag 'Ruby_on_Rails-logo.png'), url_for({:controller => 'curso', :action => 'ruby'})%></li>
+	<li class="V"><%= link_to (image_tag 'C_sharp.png'), url_for({:controller => 'curso', :action => 'c_sharp'})%></li>
+</ul>
+
+
+<hr>
+
+<%= render 'footer' %>
