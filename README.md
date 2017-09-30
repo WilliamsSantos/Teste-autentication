@@ -7,4 +7,8 @@ Sistema basico de autenticação de usuario.
 
 **Sem niveis de acesso
 
+com banco de dados Sqlite3
+
+gem 'devise'
+
 * ...
